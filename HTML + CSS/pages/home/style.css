@@ -1,34 +1,40 @@
 
+
 .container{
     text-align: justify;
     display: flex;
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+    font-family: monospace;
 }
 
 #menu li{
     display: inline;
     padding: 15px;  
     font-size: 20px;
+    font-family: monospace;
 }
 
 #menu li a{
     text-decoration: none;
     color: black;
+    font-family: monospace;
 }
 
 #menu li a:hover{
     color: gray;
+    font-family: monospace;
 }
 p{
-    padding: 30px;
+    padding: 40px;
 }
 #img{
     border-radius: 80%;
 }
 
 #title{
+    font-family: monospace;
     text-align: left;
     padding-left: 70px;
     font-size: 50px;
