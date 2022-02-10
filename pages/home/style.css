@@ -1,0 +1,33 @@
+
+.container{
+    text-align: justify;
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;  
+    font-size: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+p{
+    padding: 30px;
+}
+#img{
+    padding: 30px;
+    border-radius: 80%;
+}
+
+
+
