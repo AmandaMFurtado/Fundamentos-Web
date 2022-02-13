@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+
+    <h1 class="center">Entre em contato comigo</h1>
+        
+            <form class="center">
+                <label for="nome">Nome:</label><br />
+                <input type="text" id="nome" onkeyup= 'validaNome()' placeholder="Digite o seu nome"/>
+                <!--Input o que sera inserido pelo usuario-->
+                <!--placeholder - frase que ajudara o usuario-->
+                <!-- onkeyup - chamara a função apos a digitação do usuario-->
+                <div id="txtNome"></div>
+                <br />
+                <label for="e-mail">E-mail: </label><br />
+                <input type="email" id="email" onkeyup="validaEmail()" placeholder="Digite seu e-mail" />
+                <div id="txtEmail"></div>
+                <br />
+                <label for="assuntos">Assunto:</label><br />
+                <textarea name="assunto" id="assunto" onkeyup="validaAssunto()" cols="60" rows="10" placeholder="Digite um assunto com até 150 caracteres"></textarea>
+                <div id="txtAssunto"></div> <!--Texto aparecera abaixo dos campos-->
+                <br />
+                <button onclick="enviar()" class="mb-50">Enviar</button>
+
+            </form>
+    <hr>
+    <footer>
+        <div class="container">
+            <!-- Adicionando link as imagens-->
+            <!--Target para que seja aberta uma página em branco-->
+            <a href="https://www.linkedin.com/in/amanda-marques-furtado/" target="_blank">
+                <img class="tm-social p-30" src="/assets/img/linkedin.png" alt="Logo Linkedin">
+            </a>
+            <a href="https://github.com/AmandaMFurtado" target="_blank">
+                <img class="tm-social p-30" src="/assets/img/github.png" alt="Logo Github">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Amanda Marques Furtado &copy;
+        </p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
